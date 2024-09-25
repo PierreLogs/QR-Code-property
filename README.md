@@ -104,5 +104,6 @@ I want to continue working on this project, and learn more about responsive desi
 
 ## Author
 
+- Github - [@PierreLogs](https://github.com/PierreLogs)
 - Frontend Mentor - [@PierreLogs](https://www.frontendmentor.io/profile/PierreLogs)
 - Twitter - [@lepierre19](https://x.com/lepierre19)
