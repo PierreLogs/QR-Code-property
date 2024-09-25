@@ -58,6 +58,7 @@ I learned a how to create a QR code component. usign the HTML semantics, BEM met
 ```
 
 ```css
+/*QR Code container*/
 .content {
   background-color: var(--white-background);
   height: 510px;
@@ -68,6 +69,24 @@ I learned a how to create a QR code component. usign the HTML semantics, BEM met
   flex-direction: column;
   border-radius: 20px;
   gap: var(--space-300);
+}
+
+/*QR Code*/
+.content > .content__image > img {
+  width: 288px;
+  height: 288px;
+  border-radius: 10px;
+}
+
+/*Text*/
+.content > .content__text {
+  width: 288px;
+  height: 140px;
+  text-align: center;
+  padding: 0 6px;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-200);
 }
 ```
 
